@@ -1,0 +1,15 @@
+Discussing steps that we have followed in our server file:
+
+1. Require MySQL module.
+ 2. Create Connection variable using mysql.createConnection() method.
+ 3. Connect by using con.connect() method.
+ 4. Creating a  SQL query with count.
+ 5. Execute query by using .query() method.
+ 6. Shows affected records.
+ 7.  Run the js file by using the command node ProducList.js 
+8. output 
+
+
+Connected to database!!
+[ RowDataPacket { categoryName: 'Fruits', 'COUNT(categoryName)': 2 },
+  RowDataPacket { categoryName: 'Vegetables', 'COUNT(categoryName)': 2 } ]

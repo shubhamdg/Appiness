@@ -1,0 +1,16 @@
+ CREATE TABLE products ( 
+ PID INT ,
+ Productname VARCHAR(255),
+ category_id INT 
+ );
+ 
+
+
+// insert command 
+
+INSERT INTO products ( PID, Productname , category_id) 
+ VALUES  
+ ('1' , 'Mango' ,'1' ) ,
+ ('2' , 'Apple' ,'1'),
+ ('3' , 'Brocoli', '2') ,
+ ('4' , 'Tomato' , '2') ;

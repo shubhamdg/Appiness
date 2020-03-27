@@ -1,0 +1,13 @@
+CREATE TABLE category (
+PID INT,
+ categoryName VARCHAR (255)
+ 
+ );
+
+
+//insert command 
+
+ INSERT INTO category (PID , categoryName)
+ VALUES
+ ('1' , 'Fruits'),
+ ('2' , 'Vegetables') ;
